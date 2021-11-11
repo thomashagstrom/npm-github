@@ -1,0 +1,33 @@
+{
+  "name": "@crossplatformsweden/github-npm",
+  "version": "1.1.0",
+  "description": "Hello NPM",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossplatformsweden/github-npm.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Crossplatform",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossplatformsweden/github-npm/issues"
+  },
+  "homepage": "https://github.com/crossplatformsweden/github-npm#readme",
+  "publishConfig": {
+    "@crossplatformsweden:registry": "https://npm.pkg.github.com"
+  },
+  "engines": {
+    "node": "^12.20.0",
+    "vscode": "^1.22.0"
+  }
+}
